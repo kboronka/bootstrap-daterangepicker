@@ -1151,7 +1151,7 @@
             if (this.timePicker) {
 
                 html += '<div class="calendar-time">';
-                html += '<select class="hourselect">';
+                html += '<select class="hourselect input-sm">';
 
                 // Disallow selections before the minDate or after the maxDate
                 var min_hour = 0;
@@ -1200,7 +1200,7 @@
 
                 html += '</select> : ';
 
-                html += '<select class="minuteselect">';
+                html += '<select class="minuteselect input-sm">';
 
                 // Disallow selections before the minDate or after the maxDate
                 var min_minute = 0;
@@ -1251,7 +1251,7 @@
                 }
 
                 if (this.timePicker12Hour) {
-                    html += '<select class="ampmselect">';
+                    html += '<select class="ampmselect input-sm">';
 
                     // Disallow selection before the minDate or after the maxDate
                     var am_html = '';
