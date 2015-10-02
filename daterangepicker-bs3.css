@@ -317,7 +317,6 @@
 }
 
 .daterangepicker select.hourselect, .daterangepicker select.minuteselect, .daterangepicker select.secondselect, .daterangepicker select.ampmselect {
-  width: 50px;
   margin-bottom: 0;
 }
 
